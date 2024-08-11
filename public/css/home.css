@@ -1,0 +1,58 @@
+body {
+    font-family: "Arial", sans-serif;
+    font-size: 40px;
+    width: 100%;
+    min-height: 100vh;
+}
+
+input {
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+textarea {
+    width: 50%;
+    resize: vertical;
+    padding: 15px;
+    border-radius: 15px;
+    border: 0;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+    height: 150px
+}
+
+button {
+    /* remove default behavior */
+    appearance:none;
+    -webkit-appearance:none;
+    /* usual styles */
+    padding:10px;
+    border:none;
+    background-color:#000000;
+    color:#fff;
+    font-weight:600;
+    border-radius:8px;
+    width:20%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.menu {
+    margin: 100px;
+}
+.text-input-form {
+    margin-top: 125px;
+}
+
+.posts {
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.post {
+    border: medium dashed black;
+    margin: 40px;
+    padding: 50px;
+    word-break: break-all;
+}
